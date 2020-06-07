@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Contact</title>
+  </head>
+  <body>
+    <h3><strong>Contact Info</h3></strong>
+    <ul>
+      <p><li>Telephone: 02120940240 </li></p>
+      <p><li>Address: Rue de la fue 23, Le Chat </li></p>
+    </ul>
+
+<!--FORMS go to FORMS IN MDN or w3schools-->
+ <form action="mailto:vigbandeira@gmail.com" method="post" enctype="text/plain">
+   <!--the tag FORM itself doesn't do anything on its own, it will need
+ the label and the input tags-->  <!--"text/plain" is added so that the message in the email won't have weird characters-->
+   <label>Your Name:</label> <!--between the tags put the name of whats going to be shown-->
+   <input type="text" name="YourName" value=""> <!--INPUT is self closing and has various attributes-->
+   <br> <!--br is line breaker, otherwise the line below will stand in front of the box above-->
+<label>Your Email:</label>
+<input type="email" name="yourEmail" value=""><br>
+<label>Your Message:</label><br>
+<textarea name="YourMessage" rows="10" cols="30"></textarea><br>
+<input type="submit" name="">
+<!--check MDN or w3schools about <INPUT> tag-->
+ </form>
+  </body>
+</html>
